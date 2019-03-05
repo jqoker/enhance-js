@@ -25,5 +25,5 @@
     f(x) = x + 1
     g(x) = 2 * x + 3
 
-    h(x) = f(g(x)) = pipe([f(x), g(x)]);
+    h(x) = g(f(x)) = pipe([f(x), g(x)]);
 ```
